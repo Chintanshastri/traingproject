@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-25T18:40:36 IST" name="Default suite" finished-at="2021-04-25T18:40:51 IST" duration-ms="14788">
+    <groups>
+    </groups>
+    <test started-at="2021-04-25T18:40:36 IST" name="Default test" finished-at="2021-04-25T18:40:51 IST" duration-ms="14788">
+      <class name="util.ExcelDataProvider">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:util.ExcelDataProvider@363ee3a2]" started-at="2021-04-25T18:40:36 IST" name="launchBrowser" finished-at="2021-04-25T18:40:41 IST" duration-ms="4654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:util.ExcelDataProvider@363ee3a2]" started-at="2021-04-25T18:40:42 IST" name="test1" data-provider="Test1Data" finished-at="2021-04-25T18:40:45 IST" duration-ms="3687" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[new12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:util.ExcelDataProvider@363ee3a2]" started-at="2021-04-25T18:40:45 IST" name="test1" data-provider="Test1Data" finished-at="2021-04-25T18:40:48 IST" duration-ms="2879" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456new12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:util.ExcelDataProvider@363ee3a2]" started-at="2021-04-25T18:40:48 IST" name="test1" data-provider="Test1Data" finished-at="2021-04-25T18:40:51 IST" duration-ms="2693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test2@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456new12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- util.ExcelDataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
